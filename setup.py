@@ -1,9 +1,10 @@
 from setuptools import setup
+
 setup(
-    name='NetStress',
+    name='NetworkStresser',
     version='1.0',
-    py_modules=['stresser'],
+    py_modules=['end'],
     install_requires=[
-        'tkinter',
+        'PySocks',
     ],
 )
